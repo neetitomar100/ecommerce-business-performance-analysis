@@ -33,7 +33,7 @@ The following raw files were used for analysis:
 - `Products.csv`
 - `Orders.csv`
 - `Order items.csv`
-- `Order_item_refunds.csv`
+- `Order item refunds.csv`
 
 Additional working files:
 - `Ecommerce_Bussiness performace.xlsx`
@@ -57,6 +57,23 @@ This project answers the following business questions:
 9. Which months generated the highest revenue?
 10. What is the refund rate by product?
 11. What is the net revenue after refunds?
+
+---
+
+## SQL Analysis Performed
+The following SQL analysis was performed in this project:
+
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Top Selling Items
+- Profit by Product
+- Monthly Revenue Trend
+- Refund Amount by Product
+- Profit Margin by Product
+- Top 5 Revenue by Months
+- Refund Rate by Product
+- Average Profit per Order
 
 ---
 
@@ -98,10 +115,16 @@ The project also includes calculated columns for time-based reporting and analys
 ## Dashboard Preview
 
 ### Overview Dashboard
-![Overview Dashboard](overview.png)
+![Overview Dashboard](Ecommerce_overview.png)
 
 ### Sales Analysis Dashboard
-![Sales Analysis Dashboard](sales_analysis.png)
+![Sales Analysis Dashboard](Ecommerce_Sales Analysis.png)
+
+### Product Analysis Dashboard
+![Product Analysis Dashboard](Ecommerce_product Analysis.png)
+
+### Data Model / Relationship View
+![Data Model](Ecommerce_Relationship Model.png)
 
 > Note: The complete interactive dashboard can be opened using the `Ecommerce Data.pbix` file in Power BI Desktop.
 
@@ -119,7 +142,7 @@ These files contain the original Ecommerce data used for analysis.
 - `Products.csv`
 - `Orders.csv`
 - `Order items.csv`
-- `Order_item_refunds.csv`
+- `Order item refunds.csv`
 
 These files can be opened in:
 - Microsoft Excel
