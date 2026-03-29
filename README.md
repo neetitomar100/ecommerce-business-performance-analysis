@@ -1,7 +1,7 @@
 # Ecommerce Business Performance Analysis
 
 ## Project Overview
-This project focuses on analyzing Ecommerce business performance using **Excel, Power BI, DAX, SQL, and PostgreSQL**.
+This project focuses on analyzing Ecommerce business performance using **Excel, Power BI, DAX, and PostgreSQL for SQL-based analysis**.
 
 The objective of this project is to identify key business insights related to:
 
