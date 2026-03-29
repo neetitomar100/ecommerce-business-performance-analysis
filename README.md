@@ -14,6 +14,8 @@ The objective of this project is to identify key business insights related to:
 
 This project demonstrates an end-to-end analytical workflow including **raw data handling, SQL analysis, KPI creation, dashboard development, and business insight generation**.
 
+This project follows a complete analytical workflow from **raw Ecommerce data to dashboard reporting**, using multiple tools for data analysis and KPI generation.
+
 ---
 
 ## Tools Used
@@ -90,6 +92,94 @@ The project also includes calculated columns for time-based reporting and analys
 - Refund amount and refund rate helped identify performance gaps.
 - DAX measures were used to create KPI-based business reporting.
 - SQL and PostgreSQL were used to derive analytical insights from raw Ecommerce data.
+
+---
+
+## Dashboard Preview
+
+### Overview Dashboard
+![Overview Dashboard](overview.png)
+
+### Sales Analysis Dashboard
+![Sales Analysis Dashboard](sales_analysis.png)
+
+> Note: The complete interactive dashboard can be opened using the `Ecommerce Data.pbix` file in Power BI Desktop.
+
+---
+
+## How to Access Project Files
+
+This repository contains raw data files, analysis files, and dashboard files used in this Ecommerce Business Performance Analysis project.
+
+### File Access Guide
+
+#### 1. Raw Data Files (.csv)
+These files contain the original Ecommerce data used for analysis.
+
+- `Products.csv`
+- `Orders.csv`
+- `Order items.csv`
+- `Order_item_refunds.csv`
+
+These files can be opened in:
+- Microsoft Excel
+- CSV Viewer
+- SQL / PostgreSQL for import and analysis
+
+---
+
+#### 2. Excel Analysis File (.xlsx)
+- `Ecommerce_Bussiness performace.xlsx`
+
+This file contains Excel-based analysis and supporting calculations.
+
+Open with:
+- Microsoft Excel
+
+---
+
+#### 3. DAX File (.xlsx)
+- `Ecommerce DAX formula.xlsx`
+
+This file contains DAX measures and calculated column logic used for KPI reporting.
+
+Open with:
+- Microsoft Excel / Power Pivot
+
+---
+
+#### 4. SQL File (.sql)
+- `ecommerce orders.sql`
+
+This file contains SQL queries used for business analysis.
+
+Open with:
+- PostgreSQL
+- pgAdmin
+- SQL Editor / Query Tool
+
+---
+
+#### 5. Power BI Dashboard File (.pbix)
+- `Ecommerce Data.pbix`
+
+This file contains the interactive dashboard built for this project.
+
+Open with:
+- Power BI Desktop
+
+---
+
+## Recommended File Viewing Order
+For better understanding of the project, files can be reviewed in the following order:
+
+1. Raw CSV files  
+2. Excel analysis file  
+3. SQL file  
+4. DAX file  
+5. Power BI dashboard file  
+
+This order helps in understanding the complete workflow from **raw data to final dashboard reporting**.
 
 ---
 
